@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f8f8;
+}
+
+/* Current start */
+
+.title {
+    font-size: 50px;
+}
+
+.current__title {
+    color: #093475;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.current__item {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.current__box {
+    max-width: 350px;
+    width: 100%;
+    height: 230px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #e6eaf1;
+    border-radius: 6px;
+}
+
+.current__box-submit {
+    height: 280px;
+}
+
+.form-control:focus  , .form-select:focus{
+   box-shadow: none;
+   border-color: #093475;
+}
+.current__item:hover {
+    background-color: #009ea7b3;
+    color: #fff;
+}
+
+.current__span {
+    color: #093475;
+    opacity: 0.8;
+}
+
+.curren__span-rubl {
+    margin-right: 70px;
+}
+
+.current__span-jpy {
+    margin-right: 75px;
+}
+
+.course-img {
+    width: 50px;
+}
+
+.current__block {
+    border-bottom: 3px solid #093475;
+}
+/* Current end */

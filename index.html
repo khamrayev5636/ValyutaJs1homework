@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-dars</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <section class="current pb-5">
+        <div class="container">
+            <h1 class="text-center title py-5 fw-bold">Valyutalar kursi</h1>
+            <div class="row">
+                <div class="col-8">
+                    <div class="current__block d-flex justify-content-between align-items-center p-4">
+                        <h4 class="current__title fs-6">VALYUTANING NOMI</h4>
+                        <div>
+                            <span class="current__span">SOTIB OLISH</span>
+                            <span class="ms-5 current__span">SOTISH</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/USD.png" alt="USD">
+                            <p class="mb-0 fw-bold">1 AQSh dollari , USD</p>
+                        </div>
+                        <div>
+                            <span class="fw-bold">11200.00</span>
+                            <span class="ms-5 fw-bold">11260.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/EUR.png" alt="EUR">
+                            <p class="mb-0 fw-bold">1 Yevro , EUR</p>
+                        </div>
+                        <div>
+                            <span class="fw-bold">10800.00</span>
+                            <span class="ms-5 fw-bold">	12000.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/RUB.png" alt="RUB">
+                            <p class="mb-0 fw-bold">1 Rossiya rubli , RUB</p>
+                        </div>
+                        <div>
+                            <span class="curren__span-rubl fw-bold">140.00</span>
+                            <span class="fw-bold me-3" >190.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/GBP.png" alt="GBP">
+                            <p class="mb-0 fw-bold">1 Angliya funt sterlingi , GBP</p>
+                        </div>
+                        <div>
+                            <span class="fw-bold">12600.00</span>
+                            <span class="ms-5 fw-bold">13900.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/CHF.png" alt="CHF">
+                            <p class="mb-0 fw-bold">1 Shveytsariya franki , CHF</p>
+                        </div>
+                        <div>
+                            <span class="fw-bold">11000.00</span>
+                            <span class="ms-5 fw-bold">12200.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/JPY.png" alt="JPY">
+                            <p class="mb-0 fw-bold">1 Yaponiya iyenasi , JPY</p>
+                        </div>
+                        <div>
+                            <span class="current__span-jpy fw-bold">70.00</span>
+                            <span class="fw-bold me-4">95.00</span>
+                        </div>
+                    </div>
+                    <div class="current__item d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" src="images/KZT.png" alt="KZT">
+                            <p class="mb-0 fw-bold">1 Qozog‘iston tengesi , KZT</p>
+                        </div>
+                        <div>
+                            <span class="current__span-jpy fw-bold">10.00</span>
+                            <span class="fw-bold me-4">27.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="current__box  ms-5 mt-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="fs-5 fw-bold">Valyuta konvertori</h4>
+                            <img class="course-img" src="images/cours.svg" alt="course-logo">
+                        </div>
+                        <form class="form d-flex mb-4">
+                            <input type="number" class="form__input-js form-control me-3" placeholder="Enter your Money...">
+                            <select class="form__select-js form-select w-50" aria-label="Default select example">
+                                <option value="11200">USD</option>
+                                <option value="10800">EUR</option>
+                                <option value="140">RUB</option>
+                                <option value="12600">GBP</option>
+                                <option value="11000">CHF</option>
+                                <option value="70">JPY</option>
+                                <option value="10">KZT</option>
+                            </select>
+                        </form>
+                        <div class="alert alert-dark py-2 d-flex justify-content-between">
+                            <output class="output-js fw-bold">0.00</output>
+                            <span class="fw-bold">UZS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
